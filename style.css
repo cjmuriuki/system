@@ -1,0 +1,506 @@
+
+/* form 1 css */
+
+*{
+    padding: 0;
+
+}
+body{
+  background-color: #8a8989; /* Just for visibility */
+}
+
+.welcome_page {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #8a8989; /* Just for visibility */
+    max-height: 95vh;
+    max-width: 100%;
+  }
+  
+  .welcome_page_items {
+    text-align: center; /* Center text and buttons */
+    background: #ebebdb ; /* Optional */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 400px;
+  }
+  .welcome_page_items h1{
+    font-family: 'Dancing Script', cursive;
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+
+    
+  }
+.welcome_btn{
+    width: 10rem;
+    height: 3rem;
+    margin: 15px;
+    border-radius: 10px;
+    background: orangered;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.welcome_btn:hover{
+  background-color: rgb(124, 38, 6);
+  color: orangered;
+  transition: .4s ease-in-out;
+}
+.welcome_btn a{
+  width: 100%;
+  color: #fff;
+  padding: 10px 25px;
+  height: 100%;
+  text-decoration: none;
+}
+
+#welcome_btn{
+  width: 23rem;
+}
+
+#main_menu_btn{
+width: 12rem;
+}
+
+
+/* form2 css */
+.form2{
+  height: 600px;
+}
+.login_label{
+  font-family: cursive;
+}
+
+.login_input{
+  font-family: cursive;
+  font-size: 12px;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+/* Register an account css */
+
+
+/* form3 css */
+.welcome_page_items_vote{
+height: 350px;
+}
+.form3 div{
+  margin-bottom: 20px;
+}
+.form3 label{
+  font-family: cursive;
+}
+
+
+
+.winner{
+  margin-top: -10px;
+}
+/* form4 css */
+.form4{
+  height: 350px;
+}
+
+
+/* adminlogin css */
+.admin_login{
+  height: 350px;
+}
+#admin_btn{
+  width: 14rem;
+}
+#admin_btn a{
+  font-size: 14px;
+}
+.admin_login_input{
+  font-family: cursive;
+  font-size: 12px;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+
+/* result_announcement css */
+#exit_btn{
+  width: 10rem;
+  height: 3rem;
+}
+#result{
+  width: 15rem;
+}
+
+
+
+/* User information css */
+.form5{
+  height: 550px;
+}
+.students_form label{
+font-family: cursive;
+display: flex;
+justify-content: left;
+}/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  background-color: #8a8989;
+}
+
+/* Centered Page Layout */
+.welcome_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 100%;
+  background-color: #8a8989;
+}
+
+/* Card Styling */
+.welcome_page_items {
+  text-align: center;
+  background: #ebebdb;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+  height: 400px;
+}
+
+.welcome_page_items h1 {
+  font-family: 'Dancing Script', cursive;
+  color: #000;
+  font-weight: bold;
+}
+
+/* Buttons */
+.welcome_btn {
+  width: 10rem;
+  height: 3rem;
+  margin: 15px;
+  border-radius: 10px;
+  background: orangered;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.welcome_btn:hover {
+  background-color: rgb(124, 38, 6);
+  color: orangered;
+}
+
+.welcome_btn a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Custom Button Widths */
+#welcome_btn {
+  width: 23rem;
+}
+
+#main_menu_btn {
+  width: 12rem;
+}
+
+/* Login Form Styling */
+.login_label {
+  font-family: cursive;
+}
+
+.login_input {
+  font-family: cursive;
+  font-size: 12px;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Register Form Styling */
+.students_form label {
+  font-family: cursive;
+  display: flex;
+  justify-content: left;
+  margin-bottom: 5px;
+}
+
+.students_form input, 
+.students_form select {
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Form 3 Styling */
+.welcome_page_items_vote {
+  height: 350px;
+}
+
+.form3 div {
+  margin-bottom: 20px;
+}
+
+.form3 label {
+  font-family: cursive;
+}
+
+/* Winner Section */
+.winner {
+  margin-top: -10px;
+}
+
+/* Form 4 Styling */
+.form4 {
+  height: 350px;
+}
+
+/* Admin Login Styling */
+.admin_login {
+  height: 350px;
+}
+
+#admin_btn {
+  width: 14rem;
+}
+
+#admin_btn a {
+  font-size: 14px;
+}
+
+.admin_login_input {
+  font-family: cursive;
+  font-size: 12px;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+/* Result Announcement */
+#exit_btn {
+  width: 10rem;
+  height: 3rem;
+}
+
+#result {
+  width: 15rem;
+}
+
+/* User Information Styling */
+.form5 {
+  height: 550px;
+}
+
+.students_form input, select{
+  padding: 10px;
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+/* see students css */
+
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.welcome_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.welcome_page_items {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #007bff;
+  color: white;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+/* Responsive Design */
+
+@media (max-width: 1024px) {
+  .welcome_page_items {
+    width: 80%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .welcome_btn {
+    width: 8rem;
+    height: 2.5rem;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome_page {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .welcome_page_items {
+    width: 90%;
+    height: auto;
+    padding: 15px;
+  }
+
+  .welcome_page_items h1 {
+    font-size: 24px;
+  }
+
+  .welcome_btn {
+    width: 100%;
+    height: 3rem;
+    font-size: 16px;
+  }
+
+  table {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome_page {
+    height: auto;
+    padding: 10px;
+  }
+
+  .welcome_page_items {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .welcome_page_items h1 {
+    font-size: 20px;
+  }
+
+  .welcome_btn {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  table, th, td {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .welcome_page_items {
+    width: 90%; /* Make sure container is responsive */
+    padding: 15px;
+  }
+
+  .welcome_btn {
+    width: 100%; /* Ensure buttons fit container */
+    max-width: 250px; /* Prevent them from being too large */
+    height: 3rem;
+    font-size: 16px;
+    display: block; /* Stack buttons properly */
+    margin: 10px auto; /* Center buttons inside container */
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome_page_items {
+    width: 95%; /* Adjust container size for smaller screens */
+    padding: 10px;
+  }
+
+  .welcome_btn {
+    width: 100%; /* Full width of the container */
+    max-width: 220px;
+    height: 2.8rem;
+    font-size: 14px;
+    margin: 8px auto;
+  }
+}
+

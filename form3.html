@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thika Technical Online Voting System</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="welcome_page">
+        <div class="welcome_page_items" id="welcome_page_items_vote">
+            <h1>Online Voting System</h1>
+            <hr> <br>
+            <p id="welcomeMessage">Select Your Candidate</p>
+            
+            <form id="voting_form" class="form3">
+                <div>
+                    <input type="radio" id="candidate1" name="candidate" value="James" required>
+                    <label for="candidate1">1. James</label>
+                </div>
+                <div>
+                    <input type="radio" id="candidate2" name="candidate" value="Alice">
+                    <label for="candidate2">2. Alice</label>
+                </div>
+                <div>
+                    <input type="radio" id="candidate3" name="candidate" value="David">
+                    <label for="candidate3">3. David</label>
+                </div>
+                
+                <button type="submit" class="welcome_btn">Vote</button>
+                <button type="button" class="welcome_btn" id="logout_btn">Logout</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

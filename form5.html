@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>See Students - Thika Technical</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="welcome_page">
+        <div class="welcome_page_items form5">
+            <h1>Registered Students</h1>
+            
+                    <!-- Student data will be populated here by JavaScript -->
+                </tbody>
+            </table>
+            <a href="admin_login.html"><button class="welcome_btn">Dashboard</button></a>
+<!-- Delete Student Form -->
+<form id="deleteForm">
+    <h2>Delete Student</h2>
+    <div>
+        <label for="deleteAdmNo">Admission Number:</label>
+        <input type="text" id="deleteAdmNo" required>
+        <button type="submit">Delete Student</button>
+    </div>
+</form>
+
+<!-- Students Table -->
+<table id="studentsTable">
+    <thead>
+        <tr>
+            <th>Admission No.</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Will be populated by JavaScript -->
+    </tbody>
+</table>
+
+
+        </div>
+    </div>
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THIKA TECHNICAL ONLINE VOTING SYSTEM</title>
+
+    //Google Fonts 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+
+   // External CSS 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="welcome_page">
+        <div class="welcome_page_items form5">
+            <h1>USERS INFORMATION</h1>
+
+            <form class="students_form">
+                <label for="adm_no">STUDENT ADM NO.</label>
+                <input type="text" id="adm_no" placeholder="12345678"> 
+                
+                <label for="student_name">STUDENT NAME.</label>
+                <input type="text" id="student_name" placeholder="James Kinuthia"> 
+
+                <label for="gender">GENDER.</label>
+                <select id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" placeholder="********">
+
+                <div class="button-group">
+                    <button type="button" class="welcome_btn submit_btn" onclick="window.location.href='form2.html'">INSERT</button>
+                    <button type="button" class="welcome_btn" onclick="window.location.href='form1.html'">SHOW ALL</button>
+                    <button type="button" class="welcome_btn" onclick="window.location.href='admin_login.html'">BACK</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+     //External JavaScript
+    <script src="script.js"></script>
+</body>
+</html> 

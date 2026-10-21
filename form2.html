@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login |Thika Technical</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="welcome_page">
+        <div class="welcome_page_items">
+            <h1>USER LOGIN WINDOW</h1>
+            <hr>
+            <br>
+
+            <form id="login_form">
+                <div>
+                    <label class="login_label" for="adm_no">Adm No.</label>
+                    <input class="login_input" type="text" id="adm_no" name="adm_no" placeholder="1234" required>
+                </div>
+
+                <div>
+                    <label class="login_label" for="password">Password</label>
+                    <input class="login_input" type="password" id="password" name="password" placeholder="********" required>
+                </div>
+
+                <a href="form3.html"><button type="submit" class="welcome_btn login">LOGIN</button></a>
+                <a href="index.html"><button type="button" class="welcome_btn" id="main_menu_btn">MAIN MENU</button></a>
+            </form>
+
+            <p>Don't have an account?</p>
+           <a href="register.html"> <button type="button" class="welcome_btn register" id="register_btn">REGISTER</button></a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
